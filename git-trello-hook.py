@@ -48,8 +48,8 @@ def handle_payload():
         results = re.findall(
             card_pattern, commit['message'], flags=re.IGNORECASE)
         for result in results:
-            cards_in_commit.append(result[2])
-            cards_url_dict[result[2]] = commit['url']
+            cards_in_commit.append(result[3])
+            cards_url_dict[result[3]] = commit['url']
 
     print(cards_in_commit)
     print(cards_url_dict)
