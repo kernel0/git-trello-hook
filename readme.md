@@ -3,7 +3,7 @@ A github/gitlab webhook script written by python inspired by ruby gem [git-trell
 
 #Instructions
 
-    $pip -r requirements.txt
+    $pip install -r requirements.txt
 
     # Update these placeholders in git-trello-hook.py
     TRELLO_CONFIG = {
